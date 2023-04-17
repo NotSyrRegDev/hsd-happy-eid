@@ -1,0 +1,42 @@
+
+.flexing_getstarted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.started_mylcafe {
+    max-height: 15rem;
+}
+.hsd_btn {
+    background: #c9132c;
+    color: #FFF;
+    padding: 1rem 0.8rem;
+    border-radius: 500px;
+    font-size: 22px;
+    font-family: 'Changa';
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+   
+}
+
+.headline_main {
+    font-family: 'Cairo' , sans-serif;
+    font-size: 28px;
+    color: #263069;
+}
+
+.hsd_btn:hover {
+    background: #cac2b9;
+     font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .mylecafe_btn {
+
+        padding: 0.5rem 0.8rem;
+        font-size: 20px;
+    }
+}
