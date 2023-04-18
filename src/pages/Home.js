@@ -10,7 +10,7 @@ export const Home = () => {
       
      <div className="flexing_getstarted">
 
-     <img src="/images/icons/logo-white.jpg" alt="" className="started_mylcafe" />
+     <img src="/images/icons/logo.png" alt="" className="started_mylcafe mb-3" />
 
       <img src="/images/icons/email.png" alt="" className="email_icon_gift" />
 

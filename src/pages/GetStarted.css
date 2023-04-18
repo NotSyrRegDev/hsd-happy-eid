@@ -11,7 +11,7 @@
     max-height: 15rem;
 }
 .hsd_btn {
-    background: #c9132c;
+    background: #263069;
     color: #FFF;
     padding: 1rem 0.8rem;
     border-radius: 500px;
@@ -19,6 +19,7 @@
     font-family: 'Changa';
     margin-bottom: 1.5rem;
     cursor: pointer;
+    
    
 }
 

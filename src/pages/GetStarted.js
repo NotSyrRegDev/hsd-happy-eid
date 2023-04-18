@@ -16,7 +16,7 @@ const GetStarted = () => {
 
     <div className="flexing_getstarted">
 
-        <img src="/images/icons/logo-white.jpg" alt="" className="started_mylcafe" />
+        <img src="/images/icons/logo.png" alt="" className="started_mylcafe" />
 
     
 
@@ -28,7 +28,7 @@ const GetStarted = () => {
     <div className="mt-3"></div>
    
     <Link to="/home" className='w-100' >
-    <button className="hsd_btn w-100">🔥   أفتح العيدية</button>
+    <button className="hsd_btn w-100">   أفتح العيدية</button>
     </Link>
    
   
