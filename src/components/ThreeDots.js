@@ -5,7 +5,7 @@ const ThreeDots = props => (
   <ContentLoader
     viewBox="0 0 400 160"
     height={360}
-    width={500}
+    width={250}
     backgroundColor="transparent"
     {...props}
   >
