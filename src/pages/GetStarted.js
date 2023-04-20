@@ -20,12 +20,12 @@ const GetStarted = () => {
 
     
 
-    <div className="mt-5"></div>
+      <div className="section"></div>
 
     <h1 className="headline_main">  عيديتك أحلى مع  </h1>
     <h1 className="headline_main color_red">    نادي هواوي  </h1>
 
-    <div className="mt-3"></div>
+    <div className="section"></div>
    
     <Link to="/home" className='w-50' >
     <button className="hsd_btn w-50">   أفتح العيدية</button>
