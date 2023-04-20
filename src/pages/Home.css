@@ -30,7 +30,7 @@
 }
 
 .email_opened_div img {
-    min-height: 10rem !important;
+    max-height: 20rem !important;
 }
 
 .gift_para {

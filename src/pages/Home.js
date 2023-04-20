@@ -61,7 +61,7 @@ export const Home = () => {
 
      <img src="/images/icons/logo.png" alt="" className="started_mylcafe " />
 
-   
+    <div className="mt-2"></div>
 
     {showEmail && (
       <img src="/images/icons/email.png" alt="" className="email_icon_gift" />
@@ -87,19 +87,23 @@ export const Home = () => {
      
     )}
 
+ 
+
     {showHash && (
-      <h1 className="text-center mt-1 mb-5 section_headline">  شارك عيديتك عبر هاشتاق  <br /><span className="color_red">#HSDEIDYA</span></h1>
+      <h1 className="text-center mt-1  section_headline">  شارك عيديتك عبر هاشتاق  <br /><span className="color_red">#HSDEIDYA</span></h1>
     )}
      
 
     
-
+    <div className="mt-2"></div>
+    
       {showEmail && (
         <img src="/images/icons/rocket.png" alt="" className="rocket_icon" />
       )}
    
+       
       <h1 className="text-center mt-1 section_headline">العيد فرحة <span className="color_red">٢٠٢٣</span></h1>
-      
+
      </div>
 
  
