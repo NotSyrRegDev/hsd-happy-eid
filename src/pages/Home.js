@@ -61,7 +61,7 @@ export const Home = () => {
 
      <img src="/images/icons/logo.png" alt="" className="started_mylcafe " />
 
-     <div className="section"></div>
+   
 
     {showEmail && (
       <img src="/images/icons/email.png" alt="" className="email_icon_gift" />
@@ -92,16 +92,17 @@ export const Home = () => {
     )}
      
 
-      <div className="section"></div>
+    
 
       {showEmail && (
         <img src="/images/icons/rocket.png" alt="" className="rocket_icon" />
       )}
    
-
+      <h1 className="text-center mt-1 section_headline">العيد فرحة <span className="color_red">٢٠٢٣</span></h1>
+      
      </div>
 
-        <Footer />
+ 
 
 
     </div>

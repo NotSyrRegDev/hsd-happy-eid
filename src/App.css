@@ -146,9 +146,7 @@ button {
     
   }
   
-  .section {
-    margin-top: 6rem;
-  }
+
   
   .setion_offer {
     direction: rtl;
@@ -156,7 +154,7 @@ button {
   }
   
   .section_headline {
-    font-size: 26px;
+    font-size: 22px;
     font-family: 'Cairo';
     font-weight: 600;
     color: #010101;

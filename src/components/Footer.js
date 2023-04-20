@@ -10,9 +10,9 @@ const Footer = () => {
 
 
   return (
-    <div className='section mt-3 mb-3 fotter_section' >
+    <div className='section mt-1 mb-1 fotter_section' >
         <footer>
-           <h1 className="text-center mt-1 mb-5 section_headline">العيد فرحة <span className="color_red">٢٠٢٣</span></h1>
+           <h1 className="text-center mt-1 section_headline">العيد فرحة <span className="color_red">٢٠٢٣</span></h1>
 
 
            {/* <div className="d-flex-c f-sp top_footer_section">

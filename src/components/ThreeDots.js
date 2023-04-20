@@ -4,7 +4,7 @@ import ContentLoader from 'react-content-loader'
 const ThreeDots = props => (
   <ContentLoader
     viewBox="0 0 400 160"
-    height={360}
+    height={160}
     width={250}
     backgroundColor="transparent"
     {...props}
