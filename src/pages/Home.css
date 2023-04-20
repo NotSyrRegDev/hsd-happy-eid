@@ -12,11 +12,26 @@
 .rocket_icon {
     max-height: 8rem;
 }
+.main_get_started {
+    position: relative;
+}
+
+.image_contain {
+    animation: scale-up-hor-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    z-index: -60;
+ 
+    background-position: center / cover;
+}
 
 .main_get_started.ready {
     padding: 1rem 0;
     padding-top: 1rem;
 }
+
+
 
 .rocket_icon {
     position: absolute;
@@ -96,3 +111,24 @@ text-align: center;
    
     }
   }
+  @-webkit-keyframes scale-up-hor-center {
+    0% {
+      -webkit-transform: scaleX(0.4);
+              transform: scaleX(0.4);
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+    }
+  }
+  @keyframes scale-up-hor-center {
+    0% {
+      -webkit-transform: scaleX(0.4);
+              transform: scaleX(0.4);
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+    }
+  }
+  

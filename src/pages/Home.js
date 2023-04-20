@@ -56,6 +56,8 @@ export const Home = () => {
  
   return (
     <div className='main_get_started' >
+
+ 
       
      <div className="flexing_getstarted">
 
@@ -74,10 +76,13 @@ export const Home = () => {
 
       <ThreeDots />
       ) : (
+        <>
+        <img src='/images/icons/eid-transparent.png' className='image_contain' alt="" />
         <div className="email_opened_div">
       <p className="gift_para"> { giftsArray[ genrateRandom() ] } </p>
       <img src="/images/icons/email-opened.png" alt="" className="" />
       </div>
+      </>
       )}
 
 
