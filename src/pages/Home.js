@@ -95,8 +95,8 @@ export const Home = () => {
      
 
     
-    <div className="mt-2"></div>
-    
+   
+
       {showEmail && (
         <img src="/images/icons/rocket.png" alt="" className="rocket_icon" />
       )}
