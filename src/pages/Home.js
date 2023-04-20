@@ -90,7 +90,7 @@ export const Home = () => {
  
 
     {showHash && (
-      <h1 className="text-center mt-1  section_headline">  شارك عيديتك عبر هاشتاق  <br /><span className="color_red">#HSDEIDYA</span></h1>
+      <h1 className="text-center   section_headline">  شارك عيديتك عبر هاشتاق  <br /><span className="color_red">#HSDEIDYA</span></h1>
     )}
      
 
@@ -102,7 +102,7 @@ export const Home = () => {
       )}
    
        
-      <h1 className="text-center mt-1 section_headline">العيد فرحة <span className="color_red">٢٠٢٣</span></h1>
+      <h1 className="text-center mt-2 section_headline">العيد فرحة <span className="color_red">٢٠٢٣</span></h1>
 
      </div>
 
