@@ -35,12 +35,17 @@ export const Home = () => {
       setShowHash(!showGift);
       document.querySelector('.main_get_started').classList.add('ready');
     
+    
 
     }, 1200);
 
     setTimeout(() => {
       setThreeDotsShow( !threeDotsShow );
     }, 2200);
+
+    setTimeout(() => {
+      document.querySelector('#edi_bg_trans').style.display = 'none';
+    }, 8000);
 
   } , []);
 
@@ -77,7 +82,7 @@ export const Home = () => {
       <ThreeDots />
       ) : (
         <>
-        <img src='/images/icons/eid-transparent.png' className='image_contain' alt="" />
+        <img src='/images/icons/eid-transparent.png' id="edi_bg_trans" className='image_contain' alt="" />
         <div className="email_opened_div">
       <p className="gift_para"> { giftsArray[ genrateRandom() ] } </p>
       <img src="/images/icons/email-opened.png" alt="" className="" />
