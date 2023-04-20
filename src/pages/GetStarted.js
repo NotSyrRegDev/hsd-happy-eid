@@ -27,8 +27,8 @@ const GetStarted = () => {
 
     <div className="mt-3"></div>
    
-    <Link to="/home" className='w-100' >
-    <button className="hsd_btn w-100">   أفتح العيدية</button>
+    <Link to="/home" className='w-50' >
+    <button className="hsd_btn w-50">   أفتح العيدية</button>
     </Link>
    
   

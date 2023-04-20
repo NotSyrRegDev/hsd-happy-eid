@@ -1,9 +1,97 @@
 
+.flexing_getstarted {
+    position: relative;
+}
 
 .email_icon_gift {
     max-height: 12rem;
+    animation: 3s infinite cubic-bezier(0.455, 0.030, 0.515, 0.955) rotateEnvelope;
+
 }
 
 .rocket_icon {
-    max-height: 6rem;
+    max-height: 8rem;
 }
+
+.main_get_started.ready {
+    padding: 3rem 0;
+}
+
+.rocket_icon {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    animation: 1.2s  linear rokateGoes;
+}
+
+.email_opened_div {
+    position: relative;
+}
+
+.email_opened_div img {
+    min-height: 20rem;
+}
+
+.gift_para {
+    
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50% , -50% );
+font-family: 'Changa' , sans-serif;
+color: #fff;
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+
+}
+
+
+
+@keyframes rotateEnvelope {
+    0%   {
+        transform: rotate(0);
+    }
+    25%  {
+        transform: rotate(25deg);
+    }
+    50%  {
+        transform: rotate(0);
+    }
+    75%  {
+        transform: rotate(-25deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+  }
+
+
+@keyframes rokateGoes {
+    0%   {
+        bottom: 5%;
+        left: 55%;
+      
+    }
+    25%  {
+        bottom: 25%;
+       left: 65%;
+    }
+    50%  {
+        bottom: 45%;
+        left: 75%;
+       
+    }
+    75%  {
+        bottom: 65%;
+        left: 85%;
+    
+    }
+    100% {
+        bottom: 85%;
+        left: 95%;
+   
+    }
+  }

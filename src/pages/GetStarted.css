@@ -2,6 +2,7 @@
 .flexing_getstarted {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -13,7 +14,7 @@
 .hsd_btn {
     background: #263069;
     color: #FFF;
-    padding: 1rem 0.8rem;
+    padding: 1rem 2.8rem;
     border-radius: 500px;
     font-size: 22px;
     font-family: 'Changa';
