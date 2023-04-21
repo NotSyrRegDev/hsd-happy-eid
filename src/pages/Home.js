@@ -45,7 +45,7 @@ export const Home = () => {
 
     setTimeout(() => {
       document.querySelector('#edi_bg_trans').style.display = 'none';
-    }, 8000);
+    }, 4500);
 
   } , []);
 
